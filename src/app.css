@@ -1,0 +1,61 @@
+@import 
+url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.app{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.section-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #search-bar{
+    width: 100%;
+    position: relative
+  }
+  #search-bar input{
+    margin-top: 20px;
+    width: 258px;
+    border: 3px solid rgba(27, 26, 26, 0.89);
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(156, 156, 156);
+  }
+  .search-btn{
+    margin-left: -9px;
+    margin-top: 20px;
+    position: absolute;  
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgba(27, 26, 26, 0.89);
+    background: rgba(27, 26, 26);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .search-btn i{
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 650px) {
+    .App {
+      overflow: hidden;
+      text-align: center;
+    }
+    div.section-search {
+      margin-right: 10%;
+    }
+
+    div#search-bar {
+     width: 100%;
+    }
+  }
